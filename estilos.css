@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding-top: 72px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 72px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+section {
+    margin: 2.5%;
+    margin-bottom: 0px;
+}
+
+#grilla {
+    display: flex;
+    justify-content: space-between;
+}
+
+#grilla div {
+    width: 30%;
+}
+
+#grilla img {
+    height: 220px;
+    width: 100%;
+}
